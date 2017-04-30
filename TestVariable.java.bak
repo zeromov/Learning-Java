@@ -1,0 +1,16 @@
+public class TestVariable{
+	
+	
+	int t = 5;//直接隶属于类，所以为实例变量
+		public static void main(String[] args){
+	    //			int a;//使用前必须先声明和初始化
+				int a = 5;//属于Main方法内的变量，属于局部变量
+				int x=0,y,z;//建议分开写，比较清晰
+				System.out.println(a);
+				System.out.println(x);
+				
+				final int c = 34;
+				c=35;
+				
+			}
+	}
